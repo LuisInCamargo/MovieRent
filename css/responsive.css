@@ -18,13 +18,17 @@
  	.main-box{
  		width: 80%;
  	}
+
+ 	.footer{
+ 		margin-top: 10px;
+ 	}
 }
 
 
 @media screen and(max-width: 775px) {
  
  	.main-box{
- 		width: 90%;
+ 		width: 95%;
 	}
 
     .box-text{
@@ -36,7 +40,7 @@
  		height: 100px; 
  		padding-right: 10px;
     }
-    
+
     p{
     	font-size: 0.8em;
     }
@@ -45,7 +49,11 @@
 
 @media screen and(max-width: 640px) {
     p{
-    	font-size: 0.6em;
+    	font-size: 0.74em;
     }
+
+    .footer{
+ 		margin-top: 90px;
+ 	}
 
 }
