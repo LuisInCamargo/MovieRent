@@ -1,3 +1,4 @@
+/************************** DESKTOP **************************/
 @media screen and(min-width: 878px) and (max-width: 1200px){
  
  	.main-box{
@@ -13,7 +14,7 @@
  	}
 }
 
-
+/************************** TABLET **************************/
 @media screen and(max-width: 878px) {
  	.main-box{
  		width: 80%;
@@ -24,7 +25,7 @@
  	}
 }
 
-
+/************************** MOBILE_TELA_MAIOR **************************/
 @media screen and(max-width: 775px) {
  
  	.main-box{
@@ -47,11 +48,16 @@
 
 }
 
+/************************** MOBILE_TELA_NORMAL **************************/
 @media screen and(max-width: 640px) {
     p{
     	font-size: 0.74em;
     }
 
+    img{
+    	margin-top: 10px;
+    	padding: 0;
+    }
     .footer{
  		margin-top: 90px;
  	}
