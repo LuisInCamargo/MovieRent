@@ -1,0 +1,24 @@
+@media screen and(min-width: 878px) and (max-width: 1200px){
+ 
+ 	.main-box{
+ 		width: 90%;
+ 	}
+
+ 	#secondary-content{
+ 		padding-top: 20px;
+ 	}
+
+}
+@media screen and(max-width: 878px) {
+ 
+ 	.main-box{
+ 		width: 50%;
+ 	}
+
+
+ 	img{
+ 		display: block;
+    	margin:0 auto;
+    }
+
+}
