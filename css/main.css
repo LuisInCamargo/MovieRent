@@ -102,8 +102,8 @@ a {
 
 img{
 	height: 150px;
-	padding-right: 100px;
-	padding-bottom: 50px;
+	padding: auto auto;
+	margin: 0;
 }
 
 
