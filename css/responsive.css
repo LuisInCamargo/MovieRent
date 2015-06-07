@@ -1,6 +1,7 @@
 /************************** DESKTOP **************************/
 @media screen and(min-width: 878px) and (max-width: 1200px){
  
+ /************* HOME *************/
  	.main-box{
  		width: 80%;
  	}
@@ -16,6 +17,8 @@
 
 /************************** TABLET **************************/
 @media screen and(max-width: 878px) {
+
+/************* HOME *************/
  	.main-box{
  		width: 80%;
  	}
@@ -28,6 +31,7 @@
 /************************** MOBILE_TELA_MAIOR **************************/
 @media screen and(max-width: 775px) {
  
+/************* HOME *************/
  	.main-box{
  		width: 95%;
 	}
@@ -50,6 +54,8 @@
 
 /************************** MOBILE_TELA_NORMAL **************************/
 @media screen and(max-width: 640px) {
+
+/************* HOME *************/	
     p{
     	font-size: 0.74em;
     }

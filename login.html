@@ -12,7 +12,7 @@
   <body>
 
     <header class="header">
-    <nav class="nav"> 
+      <nav class="nav"> 
         <ul class= "menu-list">
           <a href="index.html"><li class ="menu-link ">Home</li></a>
           <a href="filmes.html"><li class ="menu-link" >Filmes </li></a>
@@ -20,32 +20,30 @@
           <a href="contact.html"><li class ="menu-link">Contato</li></a>
         </ul>
       </nav>
+    </header>
 
-      <form></form>
-<!--
-      <div class ="search_Box">
-        <input id ="inputBusca" type="text" placeholder="Search Here" name="busca">
-        <button id="buttonBuscar">Buscar</button>
-      </div>
-    </header>   
-    
-   Aside bar 
-    <div class = "side-bar-box">
-    <p id ="side-bar-title"> Recent News </p>
-    <ul class =" side-bar-list top-border">
-        <li class="side-bar-link">I Workshop Latino-Americano de GPU Computing</li>
-        <li class="side-bar-link">SBGames 2010</li>
-      </ul>
+    <div class="wrapper">
+        <section class="loginCuenta right-border">
+          <form action="post" class="">
+            <div>
+              <label class="labelForm" for="username">Username</label>
+              <input type="text" placeholder="Enter your username" id="username">
+            </div>
+            <div>
+              <label class="labelForm" for="password">Password</label>
+              <input type="password" placeholder="Enter your password" id="password">
+            </div>
+            <button class="buttonSubmit">Entrar</button>
+          </form>
+        </section>
+          
+        <section class="loginCadastro">
+          <p class="loginCadastro_Text"> Caso você não possua uma conta na nossa loja, cadastre-se <a href="createAccount.html">aqui</a>  !!!
+              Isso lhe permitira poder alugar seus filmes de um jeito rápido e nunca visto antes.
+          </p>
+        </section>
     </div>
-    
-    <div class="main-box">
-      <!-- Main text 
-      <a href="index.html"> <img src="img/niteroi-header.jpg"></a>
-      <a href="index.html"> <img src="img/medialab-logo.jpg"></a>
-      <a href="index.html"> <img src="img/header-image.jpg"></a>
-      <a href="index.html"> <img src="img/header-image.png"></a>
-  </div>-->
-    
+
     <footer class="footer">
       <p>Copyright &copy; 2015 Luis</p>
     </footer>

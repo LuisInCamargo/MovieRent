@@ -6,7 +6,6 @@ body{
 	font: 1.3em/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;	
 }
 p{
-	text-align: center;
 	line-height: normal;
 	color: rgba(0,0,0,.5);
 }
@@ -15,6 +14,7 @@ a {
 	text-decoration: none;
 }
 
+/***************************** INICIO HOME *****************************************/
 /***** HEADER *****/
 .header{	
 	width: 100%;
@@ -108,11 +108,92 @@ img{
 	padding: auto auto;
 	margin: auto;
 }
+/***************************** FIM HOME ********************************************/
 
+/***************************** INICIO LOGIN ****************************************/
+
+.right-border{
+	height: 100%; 
+	box-shadow: 1px 1px 10px rgba(168, 95, 26, 0.3);
+	height: 100%;
+	margin-right: 40px;
+}
+
+.wrapper{
+	width: 80%;
+	margin-top: 10px;
+	margin: 0 auto;
+}
+.loginCuenta{
+	float: left;
+	width: 30%;
+	
+	padding: 0 20px;
+}
+
+.loginCadastro{
+	margin: 0 auto;
+
+}
+.labelForm{
+	display: table;
+	color: rgba(168, 95, 26, 0.9);
+	font-size: 0.9em;
+}
+input{
+	height: 20px;
+	width: 80%;
+	background: white;
+}
+
+.buttonSubmit{
+	color: #fff;
+	background-color: rgb(243, 144, 40);
+	border-color: #2e6da4;
+	display: inline-block;
+	padding: 6px 12px;
+	margin-bottom: 0;
+	font-size: 14px;
+	font-weight: 400;
+	line-height: 1.42857143;
+	text-align: center;
+	white-space: nowrap;
+	vertical-align: middle;
+	-ms-touch-action: manipulation;
+	touch-action: manipulation;
+	cursor: pointer;
+	-webkit-user-select: none;
+	-moz-user-select: none;
+	-ms-user-select: none;
+	user-select: none;
+	background-image: none;
+	border: 1px solid transparent;
+	border-radius: 4px;
+	margin-top: 10px;
+}
+
+.buttonSubmit:hover{
+	background: orange;
+}
+.loginCadastro_Text{
+	padding-top: 40px;
+	padding-bottom: 46px; 
+}
+
+
+
+
+
+
+
+
+
+/***************************** INICIO LOGIN ****************************************/
 .footer{
 	padding-top: 100px;
-	color: rgba(0,0,0,.3);
+	color: rgba(0,0,0,.2);
 	clear: both;
+	text-align: center;
 }
 
 /***** Pseudo-classes ****/
