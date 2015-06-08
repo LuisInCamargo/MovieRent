@@ -1,5 +1,5 @@
 /************************** DESKTOP **************************/
-@media screen and(min-width: 878px) and (max-width: 1200px){
+@media screen and (max-width: 1200px){
  
  /************* HOME *************/
  	.main-box{
@@ -13,18 +13,42 @@
  	img{
  		margin: 0 auto;
  	}
+
+/************* LOGIN *************/
 }
 
 /************************** TABLET **************************/
 @media screen and(max-width: 878px) {
 
 /************* HOME *************/
- 	.main-box{
- 		width: 80%;
- 	}
-
  	.footer{
  		margin-top: 10px;
+ 	}
+ 	p{
+ 		font-size: 0.64em;
+ 	}
+
+/************* LOGIN *************/
+	.wrapper{
+		width: 90%;
+	}
+ 	.loginCuenta{
+ 		padding-right: 10%;
+ 	}
+ 	.loginCadastro_Text{
+ 		font-size: 0.8em;
+ 	}
+ 	.lostPassword{
+ 		font-size: 0.7em;
+ 		margin-left: 70%;
+ 		margin: 10px auto;
+ 	}
+
+ 	.sectionUsername{
+ 		width: 130%;
+ 	}
+ 	.sectionPassword{
+ 		width: 130%;
  	}
 }
 
@@ -46,10 +70,17 @@
  		padding-right: 10px;
     }
 
-    p{
-    	font-size: 0.8em;
-    }
 
+/************* LOGIN *************/
+	.wrapper{
+		width: 90%;
+	}
+	.contato p{
+		font-size: 1.2em;
+	}
+	.primary-Content{
+		width: 70%;
+	}
 }
 
 /************************** MOBILE_TELA_NORMAL **************************/
@@ -57,15 +88,48 @@
 
 /************* HOME *************/	
     p{
-    	font-size: 0.74em;
+    	font-size: 0.64em;
     }
 
     img{
     	margin-top: 10px;
     	padding: 0;
     }
-    .footer{
- 		margin-top: 90px;
+
+/************* LOGIN *************/
+
+	.wrapper{
+		width: 	70%;
+	}
+
+ 	.loginCuenta{
+ 		margin-left: 5%;
+ 		width: 80%;
+ 		margin-bottom: 30px;
+
  	}
 
+ 	.loginCadastro{
+ 		margin:0;
+ 		padding:0;
+ 		text-align: justify; 
+ 	}
+
+ 	.lostPassword{
+ 		margin-right: 20%;
+ 		font-size: 0.6em;
+ 	}
+
+ 	.footer{
+ 		margin-top: 20px;
+ 	}
+
+/************* CONTATO *************/
+	
+	.primary-Content{
+		width: 100%;
+	}
+	.contato p{
+		font-size:0.9em;
+	}
 }
