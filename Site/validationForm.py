@@ -39,6 +39,11 @@ class mainPage(webapp2.requestHandler):
         credit= validationTest.check_num(user_credit)
         password= validationTest.check_password(user_pass)
         if not(nome and mail and credit and password):
+            self.write_form(user_nome, user_mail, "", user_credit)
+        else:
+            self.response.out.write("Conectou!!!")
+        
+app = webapp2.WSGIApplication([("/", mainPage)],debug=True)
 
 
 
